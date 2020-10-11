@@ -1,3 +1,5 @@
 #dummy text for branch commit
 
+What if there are different text
+
 Add another line to test
