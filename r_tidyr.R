@@ -20,3 +20,5 @@ df_new<-separate_rows(df,Value.likedBy, convert = FALSE)
 names(df_new) <-c("to", "from")
 # swap the order of columns
 df_new <- df_new[c("from", "to")]
+
+write.csv(df_new, "mp_edgelist.csv", row.names = FALSE)
